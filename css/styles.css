@@ -153,7 +153,7 @@ body {
   border-bottom-style: solid;
   border-radius: 2px;
   color: var(--blue-link-color);
-  padding-bottom: 33px;
+  padding-bottom: 34px;
 }
 
 .nav-link:hover::after {
