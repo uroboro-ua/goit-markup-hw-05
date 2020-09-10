@@ -72,7 +72,7 @@
               </h1>
             </li>
             <li class="hero-item">
-              <button class="button-order" type="button">
+              <button data-modal-open class="button-order" type="button">
                 Заказать услугу
               </button>
             </li>
@@ -461,6 +461,15 @@
         </div>
       </div>
     </footer>
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button data-modal-close class="modal-close">
+          <svg class="close-icon">
+            <use href="./images/icons/close-button.svg#close-icon"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
